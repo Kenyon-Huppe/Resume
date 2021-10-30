@@ -13,13 +13,16 @@
 }
 p{
     color: var(--mainTextColor);
+    /* allows words to be broken if they go over page width */
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    hyphens: auto;
 }
 /* li{} */
 
 .wrapper{
     font-family: 'Cabin', sans-serif;
     margin: 0.7em 2.5em 0.7em 2.5em;
-    outline: 1px solid #000;
 }
 
 header{
@@ -71,7 +74,7 @@ footer{
 
 }
 .heading{
-    margin: 0.4em 0 0.2em;
+    margin: 0.5em 0 0.4em;
     font-size: 1.6em;
     color: var(--secondaryTextColor);
 }
@@ -114,15 +117,15 @@ footer{
 }
 .location-1{
     /* margin-left: 27.3em; */
-    margin-left: 25.3em;
+    margin-left: 25.7em;
 }
 .location-2{
     /* margin-left: 30.4em; */
-    margin-left: 28.4em;
+    margin-left: 28.8em;
 }
 .location-3{
     /* margin-left: 29.5em; */
-    margin-left: 27.5em;
+    margin-left: 27.9em;
 }
 .section-position{
     font-size: 0.9em;
@@ -135,15 +138,15 @@ footer{
 }
 .time-frame-1{
     /* margin-left: 38.4em; */
-    margin-left: 34.4em;
+    margin-left: 35em;
 }
 .time-frame-2{
     /* margin-left: 30.9em; */
-    margin-left: 26.9em;
+    margin-left: 27.6em;
 }
 .time-frame-3{
     /* margin-left: 36.1em; */
-    margin-left: 32.1em;
+    margin-left: 32.8em;
 }
 .sub-section{
     margin: 0 0 0 1em;
@@ -158,7 +161,7 @@ footer{
 
 /* * footer */
 .footer-info{
-    margin-top: 2em;
+    margin-top: 3em;
     font-size: 0.8em;
     text-align: center;
     text-transform: uppercase;
