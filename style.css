@@ -74,7 +74,7 @@ footer{
 
 }
 .heading{
-    margin: 0.5em 0 0.4em;
+    margin: 0.5em 0 0.5em;
     font-size: 1.6em;
     color: var(--secondaryTextColor);
 }
@@ -108,8 +108,9 @@ footer{
 }
 .section-title{
     color: var(--midTextColor);
-    margin-bottom: 0.3em;
+    margin-bottom: 0.2em;
     font-size: 1.1em;
+    text-decoration: underline;
 }
 .location{
     color: var(--mainTextColor);
